@@ -1,4 +1,5 @@
 import axios from "axios"
+// this follows te server side rendering
 
 async function getBlog() {
   const response = await axios.get("https://jsonplaceholder.typicode.com/todos")
